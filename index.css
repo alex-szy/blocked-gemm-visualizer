@@ -1,6 +1,8 @@
 .matrix {
-    display: inline-block;
-    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: max-content;
 }
 .cell {
     width: 20px;
@@ -12,6 +14,7 @@
 }
 .matrix-row {
     line-height: 10px;
+    width: max-content;
 }
 .highlight-a {
     background-color: #ffeeba;
