@@ -1,0 +1,55 @@
+.matrix {
+    display: inline-block;
+    margin: 0 20px;
+}
+.cell {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+.matrix-row {
+    line-height: 10px;
+}
+.highlight-a {
+    background-color: #ffeeba;
+}
+.highlight-b {
+    background-color: #cce5ff;
+}
+.highlight-c {
+    background-color: #d4edda;
+}
+.loop-tile {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #e9ecef;
+    border: 1px solid #adb5bd;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.loop-box {
+    min-height: 60px;
+    border: 1px dashed #6c757d;
+    padding: 10px;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #adb5bd;
+    color: white;
+    border: none;
+    padding: 0 5px;
+    cursor: pointer;
+    z-index: 1;
+}
+.arrow-left {
+    left: -20px;
+}
+.arrow-right {
+    right: -20px;
+}
